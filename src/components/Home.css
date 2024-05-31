@@ -1,0 +1,49 @@
+/* Home.css */
+.home {
+  position: relative;
+  height: 100vh;
+  background: url('./mnt/data/image.jpg') no-repeat center center/cover;
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.home-content h2 {
+  font-size: 48px;
+  margin: 0 0 10px;
+}
+
+.home-content p {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.btn {
+  background: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #218838;
+}

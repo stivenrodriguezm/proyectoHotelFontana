@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+  background-color: #003366;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Section Styles */
+section {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 1rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  border-bottom: 2px solid #003366;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+section p {
+  line-height: 1.6;
+}
+
+/* Room Styles */
+.room {
+  margin-bottom: 1.5rem;
+}
+
+.room h3 {
+  margin: 0.5rem 0;
+  color: #003366;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* App.css */
+.scroll-margin-top {
+  scroll-margin-top: 40px; /* Ajusta este valor según el tamaño del encabezado */
+}
+
+html {
+  scroll-behavior: smooth;
+}

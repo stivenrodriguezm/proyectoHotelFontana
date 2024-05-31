@@ -1,0 +1,38 @@
+/* Footer.css */
+.footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  margin: 0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.footer-credit {
+  font-size: 14px;
+}
+
+.footer-credit a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-credit a:hover {
+  text-decoration: underline;
+}
